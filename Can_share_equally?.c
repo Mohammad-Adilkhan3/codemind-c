@@ -1,18 +1,14 @@
 #include<stdio.h>
-int main()
-{
+int main(){
     int x,y;
     scanf("%d%d",&x,&y);
-    if(x!=0 && x%2==0)
-    {
+    if(x!=0 && x%2==0){
         printf("YES");
     }
-    else if(x==0 && y%2==0)
-    {
+    else if(x==0 && y%2==0){
         printf("YES");
     }
-    else
-    {
+    else{
         printf("NO");
     }
 }
