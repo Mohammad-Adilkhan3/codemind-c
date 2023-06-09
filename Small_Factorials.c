@@ -1,18 +1,17 @@
 #include<stdio.h>
 int main(){
-    int n; 
+    int n;
     scanf("%d",&n);
-    int a[n],i,f,j; 
-    for(i=0;i<n;i++) {
-        scanf("%d",&a[i]); 
-        
-    } 
-    for(i=0;i<n;i++) {
+    int ar[n],i,j,f;
+    for(i=0;i<n;i++){
+        scanf("%d",&ar[i]);
+    }
+    for(i=0;i<n;i++){
         f=1;
-        for(j=1;j<=a[i];j++) {
-            f=f*j; 
-            
-        } 
+        for(j=1;j<=ar[i];j++){
+            f=f*j;
+        }
         printf("%d
 ",f);
-        }}
+    }
+}
