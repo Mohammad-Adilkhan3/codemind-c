@@ -9,15 +9,13 @@ int main(){
         a[i]=d;
         i++;
     }
-    for(j=i-1;j>=0;j--){
-        {
-            if(a[j]==6){
-                a[j]=9;
-                break;
+    for(j=i-1;j>=n;j--){
+        if(a[j]==6){
+            a[j]=9;
+            break;
             }
-        }
     }
-    for(j=i-1;j>=0;j--){
+    for(j=i-1;j>=n;j--){
         printf("%d",a[j]);
     }
 }
